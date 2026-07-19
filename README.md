@@ -6,12 +6,6 @@ This repository hosts the software engineering solutions completed during the Oa
 
 ## 🛠️ Project Portfolio Architecture
 
-### Task 1: Desktop Voice Assistant (Advanced Tier)
-An automated desktop environment assistant utilizing semantic speech synthesis and a localized rule-based parser.
-* **Core Logic:** Natural Language Intent Parsing (processes free-form variations rather than simple keyword matches).
-* **Automation Engines:** Built-in email pipeline dispatch via secure `smtplib`, system timers with terminal alerts, and interactive mathematical equation evaluation.
-* **API Integration:** Real-time atmospheric metrics parsing over secure OpenWeatherMap endpoints.
-* **Configuration Controls:** External command macro definitions managed via modular JSON schemas (`assistant_config.json`).
 
 ### Task 2: Advanced BMI Health Analytics Suite (Advanced Tier)
 A biometric analytical system tracking historical health trends over an embedded transaction database.
