@@ -20,18 +20,17 @@ A biometric analytical system tracking historical health trends over an embedded
 * **Data Persistence Layer:** Persistent storage managed locally via an optimized `sqlite3` transactional architecture supporting multi-user profile querying.
 * **Data Visualization Framework:** Generates data telemetry trend lines dynamically across highlighted classification zones using `matplotlib`.
 
----
-
-## 🔒 Privacy & Compliance Disclosures
-* **Data Collection Scope:** The Voice Assistant operates strictly through localized volatile runtime triggers. Audited voice command flows are mapped entirely inside `privacy_audit.log`. No long-term microphonic raw streams are cached on disk.
-* **Database Privacy Metrics:** The BMI Analytics tracking suite retains historical rows inside a localized database file (`bmi_records.db`) isolated completely to the host machine with zero cloud sync overhead.
-
 ### Task 3: Cryptographically Secure Password Architect (Advanced Tier)
 A security compliance desktop utility generating mathematically safe authentication tokens.
 * **Security Subsystem:** Replaces predictable pseudo-random seeds by compiling strings via the cryptographically secure `secrets` module.
 * **Algorithmic Inclusion Guard:** Guarantees structural parity by ensuring at least one character from every active checkbox set is embedded into the string.
 * **Clipboard Automation:** Built-in hooks natively pass completed tokens directly into the host machine's physical clipboard via `pyperclip`.
 * **Volatile Session Buffer:** Displays a localized tracking history pane summarizing the last 5 tokens generated in the active window lifecycle (erased completely on application exit).
+---
+
+## 🔒 Privacy & Compliance Disclosures
+* **Data Collection Scope:** The Voice Assistant operates strictly through localized volatile runtime triggers. Audited voice command flows are mapped entirely inside `privacy_audit.log`. No long-term microphonic raw streams are cached on disk.
+* **Database Privacy Metrics:** The BMI Analytics tracking suite retains historical rows inside a localized database file (`bmi_records.db`) isolated completely to the host machine with zero cloud sync overhead.
 
 ---
 
