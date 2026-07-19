@@ -34,3 +34,10 @@ A biometric analytical system tracking historical health trends over an embedded
 Initialize your host python execution sandbox and pull down required external integrations by executing:
 ```bash
 pip install requests matplotlib psutil
+
+### Task 3: Cryptographically Secure Password Architect (Advanced Tier)
+A security compliance desktop utility generating mathematically safe authentication tokens.
+* **Security Subsystem:** Replaces predictable pseudo-random seeds by compiling strings via the cryptographically secure `secrets` module.
+* **Algorithmic Inclusion Guard:** Guarantees structural parity by ensuring at least one character from every active checkbox set is embedded into the string.
+* **Clipboard Automation:** Built-in hooks natively pass completed tokens directly into the host machine's physical clipboard via `pyperclip`.
+* **Volatile Session Buffer:** Displays a localized tracking history pane summarizing the last 5 tokens generated in the active window lifecycle (erased completely on application exit).
