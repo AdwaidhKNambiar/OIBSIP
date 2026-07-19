@@ -26,6 +26,15 @@ A security compliance desktop utility generating mathematically safe authenticat
 * **Algorithmic Inclusion Guard:** Guarantees structural parity by ensuring at least one character from every active checkbox set is embedded into the string.
 * **Clipboard Automation:** Built-in hooks natively pass completed tokens directly into the host machine's physical clipboard via `pyperclip`.
 * **Volatile Session Buffer:** Displays a localized tracking history pane summarizing the last 5 tokens generated in the active window lifecycle (erased completely on application exit).
+
+### Task 5: Advanced Multi-Room Live Chat Engine (Advanced Tier)
+A real-time TCP socket communication room network with relational tracking features.
+* **Network Infrastructure:** Powered by a customized multithreaded architecture handling socket connections over local loops (`127.0.0.1`).
+* **Persistent Session Stores:** User profiles, credential checks, and historic chat room streams are fully preserved using an embedded relational transaction file (`chat_system.db`).
+* **Text Processing Pipeline:** Includes an integrated text engine parser mapping classic emoji shortcodes (e.g., `:smile:`, `:fire:`) directly into standard Unicode representations.
+* **🛡️ Security Transparency Disclosure:** 
+  * **Password Protection:** User keys are securely hashed using cryptographic standard SHA-256 before hitting persistent storage disks.
+  * **Unencrypted Vectors:** Chat packet row data contents are streamed dynamically across local loops and stored inside the database rows as raw unencrypted cleartext string characters. This ensures immediate performance parsing for local execution sandboxes.
 ---
 
 ## 🔒 Privacy & Compliance Disclosures
